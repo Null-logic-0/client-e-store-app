@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Client E-Store App
 
-## Getting Started
+The Client E-Store App is a user-friendly e-commerce platform built with Next.js, Tailwind CSS, and powered by Prisma ORM with SQLite as the database. This app enables users to browse products, place orders, and manage their accounts securely. JWT tokens and JOSE are used for authentication and authorization, ensuring a safe and seamless user experience.
 
-First, run the development server:
+Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Product Catalog: Browse, filter, and search products.
+    User Authentication: Secure login and signup using JWT and JOSE.
+    Order Management: Add items to the cart and place orders.
+    Responsive Design: Optimized for both mobile and desktop devices.
+    
+Tech Stack:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Frontend: Next.js, Tailwind CSS
+    Authentication: JWT & JOSE
+    Backend: Prisma ORM with SQLite
+    Database: SQLite
+    
+Installation:
+Clone the repository:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+    git clone https://github.com/Null-logic-0/client-e-store-app
+Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    npm install
+Set up Prisma ORM and SQLite by configuring the .env file.
+Run Prisma migrations:
 
-## Learn More
+    npx prisma migrate dev
+Run the development server:
 
-To learn more about Next.js, take a look at the following resources:
+    npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot 2025-03-08 at 16 25 14](https://github.com/user-attachments/assets/41fd0620-2a2d-4b4b-984c-50ca0d5b1231)
+![Screenshot 2025-03-08 at 16 26 03](https://github.com/user-attachments/assets/d639e037-fea9-44ac-bf99-c7c9b79fb830)
+![Screenshot 2025-03-08 at 16 26 26](https://github.com/user-attachments/assets/733104bf-df82-4599-b893-f57b6c799300)
+![Screenshot 2025-03-08 at 16 27 01](https://github.com/user-attachments/assets/91d75503-69cd-4397-ba47-89155ca352c1)
+![Screenshot 2025-03-08 at 16 27 23](https://github.com/user-attachments/assets/d908c48d-d389-40c7-bb2d-1a15c12b4480)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+WATCH VIDEO ---->
+https://www.youtube.com/watch?v=vp76pxRqazk
